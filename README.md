@@ -2,8 +2,10 @@
 
  - Clone the project
  - cd tamagochi-api
- - npm install
- - node index.js  
+ - virtualenv -p python3 -v venv     (facultatif)
+ - . venv/bin/activate               (facultatif)
+ - pip3 install -r requirements-py3.txt
+ - python3 src/server.py
 
 # POSSIBLE IMPROVEMENTS
 
